@@ -3,7 +3,7 @@ class Dealer
   attr_accessor :cards, :bet, :move
   def initialize(deck)
     # @deck = Deck.new
-    # @deck.shuffle!
+    # @deck.shuffle! 
     @cards = Hand.new
     @move = 'h'
     @bet = Betting.new

@@ -18,7 +18,7 @@ class Hand
 
   def ace
     if @new_card.rank == :A
-      @ace = true
+      @ace = true 
     end
   end
 

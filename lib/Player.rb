@@ -3,7 +3,7 @@ require "hand"
 
 class Player
   attr_accessor :cards, :bet, :move
-  def initialize(deck)
+  def initialize(deck) 
     # @deck = Deck.new
     # @deck.shuffle!
     @cards = Hand.new

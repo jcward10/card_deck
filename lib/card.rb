@@ -2,7 +2,7 @@ class Card
   attr_accessor :suit
   attr_accessor :rank
 
-  def initialize(rank, suit)
+  def initialize(rank, suit) 
     @suit = suit
     @rank = rank
   end

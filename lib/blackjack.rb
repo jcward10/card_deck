@@ -14,7 +14,7 @@ class  Blackjack
     puts 'Welcome to BlackJack'
     puts
   end
-  def compare
+  def compare 
     if @player.cards.bust
       puts 'LOSER'
       @player.bet.lose
